@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    margin: 100px;
+    padding-left: 10px;
+    width: 100vh;
+    display: flex;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px 2px rgb(169, 133, 133);
+}
+p{
+    font-size: 30px;
+    font: bolder;
+
+}
+#inputbox{
+  width: 60vh;
+  height: 4vmin;
+  font-size: larger;
+  border: solid rgb(239, 228, 228);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(177, 154, 154);
+}
+#button-btn{
+    margin-left: 20px;
+    padding: 5px;
+    height: 4vmin;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 3px;
+    font-size: larger;
+}
+#button-btn:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+li{
+    max-height: fit-content;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    width: 90vh;
+    height: 4vmin;
+    border: solid rgb(239, 228, 228);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(177, 154, 154);
+  font-size: 3vmin;
+  padding: 10px;
+}
+#list{
+    max-height: fit-content;
+}
+.delete-btn{
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    height: 4vmin;
+    padding: 10px;
+    width: 5rem;
+    margin-left: 100px;
+    color:#ccc;
+    cursor: pointer;
+}
+.delete-btn:hover{
+    opacity: .5;
+}
+.edit-btn:hover{
+    opacity: .4;
+}
+.edit-btn{
+    background-color: rgba(30, 0, 255, 0.714);
+    border: none;
+    border-radius: 4px;
+    height: 4vmin;
+    padding:5px;
+
+    margin-right: 3px;
+    width: 5rem;
+    margin-left: 10px;
+    color: #ccc;
+    cursor: pointer;
+}
+li{
+ margin-right: 60px;    
+}
